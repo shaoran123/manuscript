@@ -1,0 +1,116 @@
+.uptitle{
+    color: #FF6E04;
+    font-size: 48pt;
+    font-family: 'Jost', sans-serif;
+    line-height:0%;
+}
+.author{
+    font-size: 12pt;
+    text-align:right;
+    color:#3A3838;
+}
+h2{
+    color: #044AFF;
+    font-size:96pt;
+    line-height:0%;
+
+}
+    .firstletter{
+        font-family: 'Syncopate', sans-serif;
+        letter-spacing:-0.3em;
+    }
+    .secondletter{
+        font-family: 'Mrs Saint Delafield', cursive;
+        letter-spacing:-0.1em;
+        
+    }
+    .thirdletter{
+        font-family: 'Hepta Slab', serif;
+        font-size:72pt;
+        letter-spacing:-0.4em;
+    }
+    .forthletter{
+        font-family: 'Noto Serif Bengali', serif;
+        letter-spacing:-0.2em;
+        font-size:86pt;
+    }
+    .fifthletter{
+        font-family: 'Arimo', sans-serif;
+        letter-spacing:-0.2em;
+        font-size:86pt;
+    }
+    .sixthletter{
+        font-family: 'Stick No Bills', sans-serif;
+        letter-spacing:-0.2em;
+        font-size:86pt;
+    }
+    .seventhletter{
+        font-family: 'STIX Two Text', serif;
+        font-weight:400;
+    }
+    .eighthletter{
+        font-family: 'Jost', sans-serif;
+        letter-spacing:-0.2em;
+    }
+    .ninthletter{
+        font-family: 'Grenze Gotisch', cursive;
+        letter-spacing:-0.2em;
+    }
+    .tenthletter{
+        font-family: 'Handjet', cursive;
+        letter-spacing:-0.2em;
+    }
+    .eleventhletter{
+        font-family: 'League Gothic', sans-serif;
+        letter-spacing:-0.2em;
+    }
+    .twelfthletter{
+        font-family: 'Mrs Saint Delafield', cursive;
+    }
+    .thirteenthletter{
+        font-family: 'Stick No Bills', sans-serif;
+        letter-spacing:-0.3em;
+        font-size:72pt;
+    }
+    .forteenthletter{
+        font-family: 'Jost', sans-serif;
+        letter-spacing:-0.1em;
+    }
+    .fifteenthletter{
+        font-family: 'Source Serif 4', serif;
+        letter-spacing:-0.2em;
+    }
+    .sixteenthletter{
+        font-family: 'Truculenta', sans-serif;
+        letter-spacing:-0.2em;
+    }
+    .seventeenthletter{
+        font-family: 'Jost', sans-serif;
+        letter-spacing:-0.2em;
+    }
+    .eighteenthletter{
+        font-family: 'Patrick Hand', cursive;
+        letter-spacing:-0.4em;
+    }
+    .ninteenthletter{
+        font-family: 'Handjet', cursive;
+        letter-spacing:-0.2em;
+    }
+    .twentiethletter{
+        font-family: 'Alegreya', serif;
+    }
+p{
+    color:#3A3838;
+    font-family: 'Jost', sans-serif;
+    font-size: 12pt;
+}
+blockquote{
+    color:#27CC73;
+    font-family: 'Josefin Slab', serif;
+    font-style: 'SemiBold 600';
+    font-size: 48pt;
+    text-align: left;
+    }
+.response{
+    color: #FF6E04;
+}
