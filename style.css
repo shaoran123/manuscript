@@ -3,6 +3,7 @@
     font-size: 48pt;
     font-family: 'Jost', sans-serif;
     line-height:0%;
+    font-weight:400;
 }
 .author{
     font-size: 12pt;
@@ -11,93 +12,97 @@
 }
 h2{
     color: #044AFF;
-    font-size:96pt;
+    font-size:90pt;
     line-height:0%;
+    font-weight:400;
 
 }
-    .firstletter{
+    h2 span:nth-child(1){
         font-family: 'Syncopate', sans-serif;
         letter-spacing:-0.3em;
     }
-    .secondletter{
+    h2 span:nth-child(2){
         font-family: 'Mrs Saint Delafield', cursive;
         letter-spacing:-0.1em;
         
     }
-    .thirdletter{
+    h2 span:nth-child(3){
         font-family: 'Hepta Slab', serif;
         font-size:72pt;
         letter-spacing:-0.4em;
     }
-    .forthletter{
+    h2 span:nth-child(4){
         font-family: 'Noto Serif Bengali', serif;
         letter-spacing:-0.2em;
-        font-size:86pt;
+        font-size:72pt;
+        font-weight:700;
     }
-    .fifthletter{
+    h2 span:nth-child(5){
         font-family: 'Arimo', sans-serif;
         letter-spacing:-0.2em;
         font-size:86pt;
     }
-    .sixthletter{
+    h2 span:nth-child(6){
         font-family: 'Stick No Bills', sans-serif;
         letter-spacing:-0.2em;
-        font-size:86pt;
+        font-size:80pt;
     }
-    .seventhletter{
+    h2 span:nth-child(7){
         font-family: 'STIX Two Text', serif;
         font-weight:400;
+        letter-spacing:0.05em;
     }
-    .eighthletter{
+    h2 span:nth-child(8){
         font-family: 'Jost', sans-serif;
         letter-spacing:-0.2em;
     }
-    .ninthletter{
+    h2 span:nth-child(9){
         font-family: 'Grenze Gotisch', cursive;
         letter-spacing:-0.2em;
     }
-    .tenthletter{
+    h2 span:nth-child(10){
         font-family: 'Handjet', cursive;
         letter-spacing:-0.2em;
     }
-    .eleventhletter{
+    h2 span:nth-child(11){
         font-family: 'League Gothic', sans-serif;
         letter-spacing:-0.2em;
     }
-    .twelfthletter{
+    h2 span:nth-child(12){
         font-family: 'Mrs Saint Delafield', cursive;
     }
-    .thirteenthletter{
+    h2 span:nth-child(13){
         font-family: 'Stick No Bills', sans-serif;
         letter-spacing:-0.3em;
         font-size:72pt;
     }
-    .forteenthletter{
+    h2 span:nth-child(14){
         font-family: 'Jost', sans-serif;
-        letter-spacing:-0.1em;
+        letter-spacing:0.05em;
     }
-    .fifteenthletter{
+    h2 span:nth-child(15){
         font-family: 'Source Serif 4', serif;
         letter-spacing:-0.2em;
     }
-    .sixteenthletter{
+    h2 span:nth-child(16){
         font-family: 'Truculenta', sans-serif;
         letter-spacing:-0.2em;
     }
-    .seventeenthletter{
+    h2 span:nth-child(17){
         font-family: 'Jost', sans-serif;
         letter-spacing:-0.2em;
     }
-    .eighteenthletter{
+    h2 span:nth-child(18){
         font-family: 'Patrick Hand', cursive;
         letter-spacing:-0.4em;
     }
-    .ninteenthletter{
+    h2 span:nth-child(19){
         font-family: 'Handjet', cursive;
         letter-spacing:-0.2em;
     }
-    .twentiethletter{
+    h2 span:nth-child(20){
         font-family: 'Alegreya', serif;
+        font-weight:700;
     }
 p{
     color:#3A3838;
