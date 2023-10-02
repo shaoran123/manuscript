@@ -1,22 +1,59 @@
+html{
+    margin:2rem 2rem;
+    background-color: #F1F1F1;
+}
+
 .uptitle{
     color: #FF6E04;
     font-size: 48pt;
     font-family: 'Jost', sans-serif;
-    line-height:0%;
+    line-height:100%;
     font-weight:400;
+    margin:0em 0em;
 }
 .author{
+    right:4em;
+    top:3em;
     font-size: 12pt;
-    text-align:right;
+    text-align:left;
     color:#3A3838;
+    position:absolute;
+    line-height: 1.5em;
 }
 h2{
     color: #044AFF;
-    font-size:90pt;
-    line-height:0%;
+    font-size:100pt;
+    line-height:80%;
     font-weight:400;
+    margin:0.2em 0em;
+    letter-spacing:-0.05em;}
 
+ #button{
+    display:border;
+    background-color:#FFBD13;
+    border:6px solid #FF6E04;
+    border-radius:50%;
+    padding:20px;
+    max-width: 10rem;
+    position:absolute;
+    margin-left:65rem;
+    margin-top:-15rem;
+    font-family:'Handjet', cursive;
+    }
+    #button:hover{
+        background-color:#FF6E04
+    }
+a:link{
+    color: #F1F1F1;
+    text-decoration: none;
+}  
+a:visited{
+    color:#3A3838;
 }
+a:hover{
+    background-color:#FF6E04
+}
+
     h2 span:nth-child(1){
         font-family: 'Syncopate', sans-serif;
         letter-spacing:-0.3em;
@@ -24,12 +61,12 @@ h2{
     h2 span:nth-child(2){
         font-family: 'Mrs Saint Delafield', cursive;
         letter-spacing:-0.1em;
-        
     }
+
     h2 span:nth-child(3){
         font-family: 'Hepta Slab', serif;
         font-size:72pt;
-        letter-spacing:-0.4em;
+        letter-spacing:-0.3em;
     }
     h2 span:nth-child(4){
         font-family: 'Noto Serif Bengali', serif;
@@ -41,6 +78,7 @@ h2{
         font-family: 'Arimo', sans-serif;
         letter-spacing:-0.2em;
         font-size:86pt;
+        font-style: italic;
     }
     h2 span:nth-child(6){
         font-family: 'Stick No Bills', sans-serif;
@@ -50,7 +88,7 @@ h2{
     h2 span:nth-child(7){
         font-family: 'STIX Two Text', serif;
         font-weight:400;
-        letter-spacing:0.05em;
+        font-style: italic;
     }
     h2 span:nth-child(8){
         font-family: 'Jost', sans-serif;
@@ -67,6 +105,7 @@ h2{
     h2 span:nth-child(11){
         font-family: 'League Gothic', sans-serif;
         letter-spacing:-0.2em;
+        font-size:88pt;
     }
     h2 span:nth-child(12){
         font-family: 'Mrs Saint Delafield', cursive;
@@ -78,7 +117,7 @@ h2{
     }
     h2 span:nth-child(14){
         font-family: 'Jost', sans-serif;
-        letter-spacing:0.05em;
+        letter-spacing:-0.1em;
     }
     h2 span:nth-child(15){
         font-family: 'Source Serif 4', serif;
@@ -104,18 +143,78 @@ h2{
         font-family: 'Alegreya', serif;
         font-weight:700;
     }
+    h2 span:hover{
+        color:#3A3838;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:96pt!important
+    }
+    span:nth-child(4):hover{
+        font-weight:400;
+    }
+    span:nth-child(5):hover{
+        font-style:normal;
+    }
+    span:nth-child(7):hover{
+        font-style:normal;
+    }
 p{
     color:#3A3838;
     font-family: 'Jost', sans-serif;
-    font-size: 12pt;
+    font-weight:200;
+    font-size: 16pt;
+    max-width:35rem;
+    margin-left:35rem;
 }
-blockquote{
+
+h3{
     color:#27CC73;
     font-family: 'Josefin Slab', serif;
     font-style: 'SemiBold 600';
     font-size: 48pt;
-    text-align: left;
+    font-weight:600;
+    line-height:1.2em;
+    max-width:10em;
+    margin-top:1.5em;
+    }
+    .quotation{
+        color:#FFBD13;
+        font-size:8em;
+        line-height:0em;
+        margin-left:0em;
+        position:absolute;
+        margin-top:-0.3em;
+
+    }
+    .endquotation{
+        color:#FFBD13;
+        font-size:8em;
+        line-height:0em;
+        margin-left:10em;
+        position:absolute;
+        top:3.5em;
+        
     }
 .response{
     color: #FF6E04;
+}
+.responseparagraph{
+    margin-left:-15rem;
+}
+.lastparagraph{
+    padding-bottom:100px;
+}
+footer{
+    color:#3A3838;
+    font-size: 12pt;
+    display:border;
+    background-color:#F1F1F1;
+    border-top: 5px solid;
+    border-color:#FFBD13;
+    margin:0rem -3rem;
+}
+.footer{
+    font-size:10pt;
+    margin-left:8rem!important;
+    max-width:100%;
+    margin-right:-10rem!important;
 }
